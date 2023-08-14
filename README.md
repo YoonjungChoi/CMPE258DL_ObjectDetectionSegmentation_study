@@ -2,6 +2,10 @@
 ## 1.1 Deep Neural Network
  
 ## 1.2 OpenCV - Canny Edge Detection, Contours
+
+/homeworks/HW4_DigitsRecognition
+
+![image](https://github.com/YoonjungChoi/CMPE258DL_ObjectDetectionSegmentation_study/assets/20979517/f260b9fd-90b0-43ab-8210-480c2bda9e4b)
   
 ## 1.3 YouLookOnlyOnce (YoLo) : Object Detection
   ### 1.3.1 Architecture
