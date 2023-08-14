@@ -39,8 +39,7 @@
 
 # 2. Project: Semantic Segementation with breast cancer datasdet : Attention U-Net
 
-
-
+ - https://github.com/AI-Medical-Robotics/Breast-Cancer-Segmentation
 
 # 3. Project 2: YoLo, Object Detection with PawPatrol
 
