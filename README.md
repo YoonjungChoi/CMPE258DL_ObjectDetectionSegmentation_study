@@ -1,7 +1,14 @@
 # 1. DeepLearning Course work
 ## 1.1 Deep Neural Network
 
+[Lecture: Harry Li 's github](https://github.com/hualili/opencv/tree/master/deep-learning-2022s)
+
 https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-103a-notation-neuro-loss-function-2022-2-8.pdf
+
+https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-105c-%2320-2021S-4gradient-descent-v2-final-2021-2-8.pdf
+
+
+
 
  
 ## 1.2 OpenCV - Canny Edge Detection, Contours
@@ -42,6 +49,9 @@ https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-103a-not
 ## 1.4 Semantic Segmentation
   
  * Deep Convolutional Neural Network
+
+![image](https://github.com/YoonjungChoi/CMPE258DL_ObjectDetectionSegmentation_study/assets/20979517/cac14e6a-66fb-401c-8cb6-bbf64c19d37a)
+
  
    - Encoder: feature extraction (Convolutions, kernels), classification(FeedForward NN)
    
@@ -51,10 +61,12 @@ https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-103a-not
   
   The process of noving from lower resolution feature maps to higher resolution feature map, eventually to the resolution of original
   image is what we called "upsampling".
+
+  ![image](https://github.com/YoonjungChoi/CMPE258DL_ObjectDetectionSegmentation_study/assets/20979517/6718cce1-4e77-4a6f-832a-f1b5f5a0567c)
   
  * Nearest Neighbor
  * Bi-Linear Interpolationn
- * Bed of Nails nailing/annchor point based upsampling
+ * Bed of Nails nailing/anchor point based upsampling
  * MaxPooling, remember with element was max (location)
  * Transposed Convolution
 
