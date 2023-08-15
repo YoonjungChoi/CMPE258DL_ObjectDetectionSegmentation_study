@@ -1,20 +1,34 @@
 # 1. DeepLearning Course work
 ## 1.1 Deep Neural Network
+
+https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-103a-notation-neuro-loss-function-2022-2-8.pdf
+
  
 ## 1.2 OpenCV - Canny Edge Detection, Contours
 
 /homeworks/HW4_DigitsRecognition
 
 ![image](https://github.com/YoonjungChoi/CMPE258DL_ObjectDetectionSegmentation_study/assets/20979517/f260b9fd-90b0-43ab-8210-480c2bda9e4b)
+
+
+1. each frame of video can be processed
+2. crops bounding boxes by using canny edge detection and contrours. (crop them without destroy resolutions)
+3. give the cropped images to the classifier to detect an number
+4. display the number 
+
   
 ## 1.3 YouLookOnlyOnce (YoLo) : Object Detection
+
   ### 1.3.1 Architecture
-  <img src="https://user-images.githubusercontent.com/20979517/236288382-3f41f498-e1a7-42fd-84a3-d51d0b5aa680.png" width="350" height="350">
+  
+  https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022F-108a-Yolo-architecture-loss-function-2022-10-10.pdf
+  
   
   * IoU: Intersection Over Union
     There are two Bounding Boxes; predicted bounding box and ground truth box.
     
-    
+   <img src="https://user-images.githubusercontent.com/20979517/236288382-3f41f498-e1a7-42fd-84a3-d51d0b5aa680.png" width="250" height="250">
+
     
   * Probability Map by K-means
     K-Means Steps:
@@ -27,11 +41,14 @@
 
 ## 1.4 Semantic Segmentation
   
- * Deep Convolutional Nneural Network - Encoder: feature extraction (Convolutions, kernels), classification(FeedForward NN)
-  
- * Upsampling - Decoder: To get pixel-by-pixel Recognition of objects e.g. Segmentation.
+ * Deep Convolutional Neural Network
+ 
+   - Encoder: feature extraction (Convolutions, kernels), classification(FeedForward NN)
+   
+   - Decoder: To get pixel-by-pixel Recognition of objects e.g. Segmentation. (Up Sampling)
 
   ### 1.4.1 Upsampling
+  
   The process of noving from lower resolution feature maps to higher resolution feature map, eventually to the resolution of original
   image is what we called "upsampling".
   
@@ -43,7 +60,11 @@
 
 # 2. Project: Semantic Segementation with breast cancer datasdet : Attention U-Net
 
- - https://github.com/AI-Medical-Robotics/Breast-Cancer-Segmentation
+ - Team Project Repository: https://github.com/AI-Medical-Robotics/Breast-Cancer-Segmentation
+
+more explanations - [U-Net](https://jinglescode.github.io/2019/11/07/biomedical-image-segmentation-u-net/) ,  [Attention U-Net](https://jinglescode.github.io/2019/12/08/biomedical-image-segmentation-u-net-attention/) 
 
 # 3. Project 2: YoLo, Object Detection with PawPatrol
+
+
 
