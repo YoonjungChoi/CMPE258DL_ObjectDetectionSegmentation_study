@@ -3,13 +3,36 @@
 
 [Lecture: Harry Li 's github](https://github.com/hualili/opencv/tree/master/deep-learning-2022s)
 
-https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-103a-notation-neuro-loss-function-2022-2-8.pdf
+- [Lecture: Loss Function](https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-103a-notation-neuro-loss-function-2022-2-8.pdf)
+- [Lecture: Gradient Descent](https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-105c-%2320-2021S-4gradient-descent-v2-final-2021-2-8.pdf)
 
-https://github.com/hualili/opencv/blob/master/deep-learning-2022s/2022S-105c-%2320-2021S-4gradient-descent-v2-final-2021-2-8.pdf
+Simple implementation Code:
+
+```
+x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+y= np.array([1, 3, 2, 5, 7, 8, 8, 9, 10, 12])
+
+def simple_train(x, y, weight, bias, learning_rate, iters):
+        
+    for i in range(iters):
+       
+        pred = weight*x + bias
+        weight_deriv = -2*x * (y - pred)
+        bias_deriv = -2*(y - pred)
+
+        #update weight and bias
+        weight -= (np.sum(weight_deriv) / len(x)) * learning_rate
+        bias -= (np.sum(bias_deriv) / len(x)) * learning_rate
+        
+        
+        if i % 10 == 0:
+            cost = np.sum((y-pred)**2)/len(x)
+            print("iter={:d}    weight={:.2f}    bias={:.4f}    cost={:.2}".format(i, weight, bias, cost))
+    return weight, bias
 
 
-
-
+w, b = simple_train(x, y, 1, 1, 0.01, 100)
+```
  
 ## 1.2 OpenCV - Canny Edge Detection, Contours
 
