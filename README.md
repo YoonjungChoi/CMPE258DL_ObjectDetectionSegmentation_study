@@ -99,7 +99,12 @@ w, b = simple_train(x, y, 1, 1, 0.01, 100)
 
 more explanations - [U-Net](https://jinglescode.github.io/2019/11/07/biomedical-image-segmentation-u-net/) ,  [Attention U-Net](https://jinglescode.github.io/2019/12/08/biomedical-image-segmentation-u-net-attention/) 
 
-# 3. Project 2: YoLo, Object Detection with PawPatrol
+# 3. Project 2: YoLo, Real-time Object Detection with PawPatrol
 
 
+- find Chase Character! 
+
+result on image
+
+<img src="https://user-images.githubusercontent.com/20979517/260527118-5263e548-0613-4034-9453-87d31a50919f.png" width=500/>
 
